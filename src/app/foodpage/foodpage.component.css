@@ -68,7 +68,7 @@ img{
     color: green;
 }
 .details .price ::before{
-    content: "price";
+    content: "price: ";
     color: darkgrey;
 
 }
@@ -80,4 +80,8 @@ img{
     padding: 1rem;
     border-radius: 10rem;
     outline: none;
+}
+.details button:hover{
+    opacity: .9;
+    cursor: pointer;
 }
